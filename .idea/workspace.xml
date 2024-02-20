@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5098a8b-eb25-47f0-ad12-05106744a512" name="Changes" comment="docs: 文档初始化">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx/nginx.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nginx/ssl/ssl.md" afterDir="false" />
+    <list default="true" id="d5098a8b-eb25-47f0-ad12-05106744a512" name="Changes" comment="docs: nginx config">
+      <change afterPath="$PROJECT_DIR$/docs/ Nginx-Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx/conf/conf.d/default.conf.back" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/conf/conf.d/default.conf" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/conf/conf.d/default.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/nginx.md" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/nginx.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +41,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -52,7 +52,7 @@
     "WebServerToolWindowPanel.toolwindow.show.date": "false",
     "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
     "WebServerToolWindowPanel.toolwindow.show.size": "false",
-    "last_opened_file_path": "D:/Codes/JAVA/dev-ops/nginx",
+    "last_opened_file_path": "D:/Codes/JAVA/dev-ops/nginx/conf/conf.d",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -62,6 +62,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Codes\JAVA\dev-ops\nginx\conf\conf.d" />
       <recent name="D:\Codes\JAVA\dev-ops\nginx" />
     </key>
   </component>
@@ -73,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708422929887</updated>
-      <workItem from="1708422931559" duration="5992000" />
+      <workItem from="1708422931559" duration="9026000" />
     </task>
     <task id="LOCAL-00001" summary="docs: 文档初始化">
       <created>1708423131932</created>
@@ -96,11 +97,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708423777672</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="docs: nginx config">
+      <created>1708438299320</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708438299320</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.back" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="nginx.conf" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -114,8 +127,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="docs: 文档初始化" />
-    <option name="LAST_COMMIT_MESSAGE" value="docs: 文档初始化" />
+    <MESSAGE value="docs: nginx config" />
+    <option name="LAST_COMMIT_MESSAGE" value="docs: nginx config" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
