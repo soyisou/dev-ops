@@ -1,0 +1,28 @@
+2024/02/20 14:00:34 [notice] 1#1: using the "epoll" event method
+2024/02/20 14:00:34 [notice] 1#1: nginx/1.25.4
+2024/02/20 14:00:34 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/02/20 14:00:34 [notice] 1#1: OS: Linux 3.10.0-1160.105.1.el7.x86_64
+2024/02/20 14:00:34 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/02/20 14:00:34 [notice] 1#1: start worker processes
+2024/02/20 14:00:34 [notice] 1#1: start worker process 22
+2024/02/20 14:00:34 [notice] 1#1: start worker process 23
+2024/02/20 14:02:20 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/02/20 14:02:20 [notice] 22#22: gracefully shutting down
+2024/02/20 14:02:20 [notice] 22#22: exiting
+2024/02/20 14:02:20 [notice] 22#22: exit
+2024/02/20 14:02:20 [notice] 23#23: gracefully shutting down
+2024/02/20 14:02:20 [notice] 23#23: exiting
+2024/02/20 14:02:20 [notice] 23#23: exit
+2024/02/20 14:02:20 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/02/20 14:02:20 [notice] 1#1: worker process 22 exited with code 0
+2024/02/20 14:02:20 [notice] 1#1: worker process 23 exited with code 0
+2024/02/20 14:02:20 [notice] 1#1: exit
+2024/02/20 14:02:20 [notice] 1#1: using the "epoll" event method
+2024/02/20 14:02:20 [notice] 1#1: nginx/1.25.4
+2024/02/20 14:02:20 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/02/20 14:02:20 [notice] 1#1: OS: Linux 3.10.0-1160.105.1.el7.x86_64
+2024/02/20 14:02:20 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/02/20 14:02:20 [notice] 1#1: start worker processes
+2024/02/20 14:02:20 [notice] 1#1: start worker process 22
+2024/02/20 14:02:20 [notice] 1#1: start worker process 23
+2024/02/20 14:07:04 [error] 23#23: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 39.149.216.210, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "39.108.218.39", referrer: "http://39.108.218.39/"
