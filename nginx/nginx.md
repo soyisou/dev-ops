@@ -24,6 +24,14 @@ docker run \
 -v /app/javapro/dev-ops/nginx/logs:/var/log/nginx \
 -v /app/javapro/dev-ops/nginx/ssl:/etc/nginx/ssl \
 --privileged=true -d --restart=always nginx
+
+
+## windows docker nginx映射关系
+D:/nginx/conf/nginx.conf:/etc/nginx/nginx.conf
+D:/nginx/conf/conf.d:/etc/nginx/conf.d
+D:/nginx/html:/usr/share/nginx/html
+D:/nginx/logs:/var/log/nginx
+D:/nginx/ssl:/etc/nginx/ssl
 ```
 
 # 二、命令解释
